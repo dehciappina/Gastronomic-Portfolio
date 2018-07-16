@@ -472,11 +472,11 @@ input:focus, textarea:focus {
 
 
 ::-webkit-scrollbar {
-    width: 0.8vw;
+    width: 1.2vw;
 }
 
 -moz-scrollbar-track {
-    width:0.8vw;
+    width:1.2vw;
 }
 
 ::-webkit-scrollbar-track {
