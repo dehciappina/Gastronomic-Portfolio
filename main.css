@@ -186,6 +186,10 @@ input:focus, textarea:focus {
     background-image: url('assets/Tailandesa/img1.jpg')
 }
 
+.blocos_container section article:nth-child(18) {
+    background-image: url('assets/Paraguaia/img1.jpg')
+}
+
 .hidden_space {
     position: fixed;
     bottom: 10%;
@@ -394,7 +398,7 @@ input:focus, textarea:focus {
             transform: translateX(0%);
             opacity:1;
             visibility: visible;
-            transition: 0.4s 0.8s ease;
+            transition: 0.4s 0.8s ease !important;
         }
 
     .profile_photo_container {
@@ -500,6 +504,12 @@ input:focus, textarea:focus {
 
 
 
+
+@media (max-width:900px) {
+    .info p {
+        font-size: 2vw;
+    }
+}
 
 
 
